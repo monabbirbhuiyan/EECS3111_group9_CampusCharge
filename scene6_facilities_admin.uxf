@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLActor</id><coordinates><x>24</x><y>296</y><w>80</w><h>88</h></coordinates><panel_attributes>Registered User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>224</x><y>256</y><w>192</w><h>72</h></coordinates><panel_attributes>UC22 
+Configure Charger Infrastructure 
+(Req7, Req8)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>224</x><y>352</y><w>192</w><h>72</h></coordinates><panel_attributes>UC23 
+Schedule Charger Maintenance Shutdown 
+(Req7)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>568</x><y>352</y><w>192</w><h>72</h></coordinates><panel_attributes>UC24 
+Reroute Conflicting Bookings 
+(Req7, Req11)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>576</x><y>512</y><w>192</w><h>72</h></coordinates><panel_attributes>UC21 
+Dispatch Multi-Channel Notification 
+(Req7, Req12)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>864</x><y>312</y><w>192</w><h>112</h></coordinates><panel_attributes>External Payment Service 
+«secondary actor» 
+(100% deposit refunds on cancellations)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>912</x><y>520</y><w>112</w><h>96</h></coordinates><panel_attributes>Notification Service 
+«secondary actor»</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>184</x><y>176</y><w>640</w><h>448</h></coordinates><panel_attributes>CampusCharge - Facilities Operations Console
+fontsize=15
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>224</x><y>456</y><w>192</w><h>72</h></coordinates><panel_attributes>UC25 
+Export Usage and Revenue CSV Report 
+(Req12)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>8</x><y>480</y><w>112</w><h>88</h></coordinates><panel_attributes>Chief Facilities Officer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>56</x><y>368</y><w>24</w><h>112</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>280</y><w>152</w><h>64</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>320</y><w>152</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;170;80</additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>320</y><w>152</w><h>184</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;170;210</additional_attributes></element><element><id>Relation</id><coordinates><x>752</x><y>336</y><w>184</w><h>64</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;210;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>536</y><w>184</w><h>32</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>368</y><w>176</w><h>32</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>656</x><y>416</y><w>72</w><h>112</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;20;120</additional_attributes></element></diagram>

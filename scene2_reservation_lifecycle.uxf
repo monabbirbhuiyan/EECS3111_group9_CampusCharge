@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>0</x><y>260</y><w>100</w><h>110</h></coordinates><panel_attributes>Registered User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>280</x><y>160</y><w>190</w><h>80</h></coordinates><panel_attributes>UC06
+Reserve Charger Slot 
+(Req3, Req5, Req11)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>280</x><y>270</y><w>190</w><h>80</h></coordinates><panel_attributes>UC08 
+Modify Existing Reservation 
+(Req9)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>280</x><y>390</y><w>190</w><h>80</h></coordinates><panel_attributes>UC09 
+Cancel Reservation 
+(Req5, Req9, Req11)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>280</x><y>520</y><w>190</w><h>80</h></coordinates><panel_attributes>UC10 
+Request Session Extension 
+(Req10)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>670</x><y>160</y><w>190</w><h>80</h></coordinates><panel_attributes>UC07 
+Authorize Security Deposit 
+(Req5, Req11)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>670</x><y>390</y><w>190</w><h>80</h></coordinates><panel_attributes>UC21 
+Dispatch Multi-Channel Notification 
+(Req12)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>670</x><y>520</y><w>190</w><h>80</h></coordinates><panel_attributes>UC11 
+Recommend Alternative Charger 
+(Req10)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>1020</x><y>150</y><w>160</w><h>120</h></coordinates><panel_attributes>External Payment Service
+&lt;&lt;secondary actor&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>1040</x><y>390</y><w>120</w><h>120</h></coordinates><panel_attributes>Notification Service
+&lt;&lt;secondary actor&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>210</x><y>0</y><w>770</w><h>660</h></coordinates><panel_attributes>CampusCharge - Reservation Engine</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>80</y><w>210</w><h>230</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;210;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>190</y><w>210</w><h>120</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;100;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>280</y><w>210</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;190;30</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>280</y><w>210</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;190;150</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>280</y><w>210</w><h>300</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;190;280</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>180</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>410</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>540</y><w>230</w><h>80</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;
+___
+[Target charger unavailable
+for subsequent 30-min block</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>850</x><y>180</y><w>230</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>850</x><y>410</y><w>240</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>280</x><y>50</y><w>190</w><h>80</h></coordinates><panel_attributes>UC05 
+Search &amp; Filter Available Chargers 
+(Req8)
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

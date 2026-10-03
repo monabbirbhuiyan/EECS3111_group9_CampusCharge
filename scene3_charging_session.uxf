@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>40</x><y>210</y><w>100</w><h>110</h></coordinates><panel_attributes>Registered User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>120</y><w>220</w><h>80</h></coordinates><panel_attributes>UC12 
+Check In via RFID Badge Scan 
+(Req5, Req6)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>230</y><w>220</w><h>80</h></coordinates><panel_attributes>UC14 
+Conclude Session via Coupler Disconnect 
+(Req6)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>350</y><w>220</w><h>80</h></coordinates><panel_attributes>UC13 
+Monitor Live Energy Delivery 
+(Req6)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>540</y><w>220</w><h>80</h></coordinates><panel_attributes>UC15 
+Handle Hardware Fault Detection 
+(Req6, Req12)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>710</y><w>220</w><h>80</h></coordinates><panel_attributes>UC21 
+Dispatch Multi-Channel Notification 
+(Req12)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>900</x><y>340</y><w>160</w><h>170</h></coordinates><panel_attributes>Charger Sensors
+&lt;&lt;Hardware&gt;&gt;
+(Plug Latch, RFID Badge 
+Reader, Energy Meter, 
+Fault Sensor)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>910</x><y>680</y><w>140</w><h>120</h></coordinates><panel_attributes>Notification Service 
+«secondary actor»</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>260</x><y>70</y><w>560</w><h>750</h></coordinates><panel_attributes>fontsize=15
+CampusCharge - Station Hardware Interface</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>150</y><w>320</w><h>120</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;100;300;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>240</y><w>320</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;300;30</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>150</y><w>320</w><h>250</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;300;230</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>260</y><w>320</w><h>140</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;300;120</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>360</y><w>320</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>370</y><w>320</w><h>230</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;210;300;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>610</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>420</y><w>250</w><h>140</h></coordinates><panel_attributes>lt=.&gt;
+m1=[Ground fault, pilot loss,\n        or telemetry failure\n                          detected]
+m1pos=-160,-10
+m2=«extends»
+m2pos=10,20
+</panel_attributes><additional_attributes>160;120;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>710</y><w>330</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;40;310;10</additional_attributes></element></diagram>

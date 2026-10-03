@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>21</x><y>336</y><w>70</w><h>77</h></coordinates><panel_attributes>Registered User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>182</x><y>336</y><w>168</w><h>63</h></coordinates><panel_attributes>UC16 
+Calculate and Settle Final Invoice 
+(Req4, Req5, Req11)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>182</x><y>511</y><w>168</w><h>63</h></coordinates><panel_attributes>UC18 
+Enforce Idle Overstay Surcharge 
+(Req4)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>511</x><y>336</y><w>168</w><h>63</h></coordinates><panel_attributes>UC17 «abstract» 
+Execute Payment Transaction 
+(Req11)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>413</x><y>483</y><w>168</w><h>63</h></coordinates><panel_attributes>UC17a 
+Process Card Payment 
+(Req11)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>609</x><y>483</y><w>168</w><h>63</h></coordinates><panel_attributes>UC17b 
+Process Institutional Department Billing 
+(Req11)
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>917</x><y>476</y><w>112</w><h>84</h></coordinates><panel_attributes>External Payment Service 
+«secondary actor»</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>140</x><y>280</y><w>707</w><h>343</h></coordinates><panel_attributes>CampusCharge - Billing &amp; Settlement Engine
+fontsize=15</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>77</x><y>350</y><w>119</w><h>28</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>483</x><y>392</y><w>91</w><h>105</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;130;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>609</x><y>392</y><w>98</w><h>105</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>120;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>672</x><y>357</y><w>294</w><h>161</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;400;210</additional_attributes></element><element><id>Relation</id><coordinates><x>343</x><y>350</y><w>182</w><h>28</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>392</y><w>196</w><h>133</h></coordinates><panel_attributes>lt=.&gt;
+m1=[Vehicle parked past 10-minute\n post-charge grace period]
+m1pos=10,-50
+m2=«extends»
+m2pos=-80,50</panel_attributes><additional_attributes>80;170;80;10</additional_attributes></element></diagram>
